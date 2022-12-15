@@ -1,0 +1,64 @@
+@media screen and (max-width: 770px) {
+    .box_weather {
+        width: 400px;
+        height: 450px;
+    }
+    .top {
+        height: 120px
+    }
+    .top_flex_value {
+        margin-top: 5px;
+        height: 50%;
+    }
+    .main_value {
+        font-size: 2em;
+    }
+    .unit {
+        font-size: 12px;
+    }
+    .flex_item_properties {
+        max-height: 50%;
+        margin-top: 12px;
+    }
+    .flex_item_properties p{
+        font-size: 12px;
+    }
+
+    .flex_item_description h2 {
+        font-size: 1.5em;
+    }
+    .flex_item_description p {
+        font-size: 12px;
+    }
+    .content {
+        height: 250px;
+    }
+    .format p {
+        font-size: 12px;
+    }
+    .box_diagram {
+        padding: 10px 0 0 0;
+        border: 2px solid #ff00bf;
+    }
+    .diagram {
+        max-width: 100%;
+        height: 100%;
+        border: 2px solid aqua;
+    }
+    .item_time {
+        font-size: 12px;
+    }
+    .button {
+        height: 120px;
+    }
+    .box_day img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+    .box_day p{
+        margin-left: 5px;
+        font-size: 12px;
+    }
+
+}
