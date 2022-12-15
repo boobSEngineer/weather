@@ -12,7 +12,7 @@ interface IWind {
 const Wind: React.FC<IWind> = (props) => {
     let {time, wind, wind_deg} = props
     return (
-        <div style={{padding: '4px 10px'}} className={t.flex_item_temp}>
+        <div className={t.flex_item_temp}>
             <div className={w.wind_item}>
                 <p>{wind} m/sec</p>
             </div>

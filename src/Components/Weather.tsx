@@ -17,7 +17,7 @@ const Weather: React.FC = () => {
     return (
         <div className={w.wrapper}>
 
-            <div className={w.box_weather}>
+            <div className={w.box_weather} >
                 <WeatherDescription/>
                 <WeatherDiagram/>
                 <ListDay/>

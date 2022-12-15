@@ -1,6 +1,7 @@
 import React from "react";
 import t from "../../Style/Weather.module.css";
 
+
 interface ITemperature {
     time: Date;
     tempMax: number;
